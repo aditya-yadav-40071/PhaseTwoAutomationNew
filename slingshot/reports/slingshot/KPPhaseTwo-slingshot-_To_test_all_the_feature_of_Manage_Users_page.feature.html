@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Cucumber-JVM Html Reports - Feature:  To test all the feature of Manage Users page </title>
+	<link rel="stylesheet" href="blue/css/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="blue/css/skin/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="blue/css/960.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="blue/css/reset.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="blue/css/text.css" type="text/css" media="screen" />
+	<link rel="shortcut icon" href="blue/favicon.ico" />
+    <style>
+    .CodeMirror-scroll {
+      height: auto;
+      overflow-y: hidden;
+      overflow-x: auto;
+    }
+
+.feature-keyword{font-weight:bold;}
+.feature-description{padding-left:15px;font-style:italic;background-color:beige;}
+.feature-role{font-weight:bold;}
+.feature-action{font-weight:bold;}
+.feature-value{font-weight:bold;}
+.feature-tags{padding-top:10px;padding-left:15px;color:darkblue;}
+.scenario-keyword{font-weight:bold;padding-left:15px;}
+.scenario-scenario_name{padding-left:15px;}
+.step-keyword{font-weight:bold;padding-left:50px;}
+.step-error-message{background-color:#FFEEEE;padding-left:50px;border: 1px solid #D88A8A;}
+.step-duration{float:right;padding-right:15px;}
+.passed{background-color:#C5D88A;}
+.failed{background-color:#D88A8A;}
+.skipped{background-color:#2DEAEC;}
+.undefined{background-color: #ebcc81;}
+
+table.stats-table {
+color:black;
+border-width: 1px;
+border-spacing: 2px;
+border-style: outset;
+border-color: gray;
+border-collapse: collapse;
+background-color: white;
+}
+table.stats-table th {
+color:black;
+border-width: 1px;
+padding: 5px;
+border-style: inset;
+border-color: gray;
+background-color: #66CCEE;
+-moz-border-radius: ;
+}
+table.stats-table td {
+color:black;
+text-align: center;
+border-width: 1px;
+padding: 5px;
+border-style: inset;
+border-color: gray;
+background-color: white;
+-moz-border-radius: ;
+}
+
+table.data-table {
+    color: black;
+    border-width: 1px;
+    border-spacing: 2px;
+    border-style: outset;
+    border-color: #d6d6d6;
+    border-collapse: collapse;
+    background-color: beige;
+}
+table.data-table th {
+    color:black;
+    border-width: 1px;
+    padding: 5px;
+    border-style: inset;
+    border-color: #d6d6d6;
+    background-color: #66CCEE;
+}
+table.data-table td {
+    color:black;
+    text-align: center;
+    border-width: 1px;
+    padding: 5px;
+    border-style: inset;
+    border-color: #d6d6d6;
+    background-color: beige;
+}
+
+.data {
+   padding-left:50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.output-data {
+    padding-left:50px;
+    background-color: beige;
+}
+
+.doc-string {
+    width:auto;
+    display:inline-block;
+    margin: 10px auto 10px 70px;
+    padding: 10px;
+    background-color:rgba(255,255,255,0.35);
+    border-radius: 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 95%;
+}
+</style>
+
+</head>
+<body id="top">
+	<div id="fullwidth_header">
+		<div class="container_12">
+			<h1 class="grid_4 logo"><a href="feature-overview.html" class='ie6fix'>Cucumber</a></h1>
+			<div class="grid_6" id="nav">
+				<ul>
+                    					<li><a href="tag-overview.html">Tag Overview</a></li>
+					<li><a href="feature-overview.html">Feature Overview</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="fullwidth_gradient">
+		<div class="container_12">
+			<div class="grid_9 heading">
+				<h2 id="feature-title">Feature Result for Build: </h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="container_12">
+		<div class="grid_12">
+
+            <div>
+                <table class="stats-table">
+                    <tr>
+    <th></th>
+    <th id="stats-header-scenarios" colspan="3">Scenarios</th>
+    <th id="stats-header-steps" colspan="5">Steps</th>
+    <th></th>
+    <th></th>
+</tr>
+<tr>
+    <th id="stats-header-feature">Feature</th>
+    <th id="stats-header-scenarios-total">Total</th>
+    <th id="stats-header-scenarios-passed">Passed</th>
+    <th id="stats-header-scenarios-failed">Failed</th>
+    <th id="stats-header-steps-total">Total</th>
+    <th id="stats-header-steps-passed" style="background-color:#C5D88A;">Passed</th>
+    <th id="stats-header-steps-failed" style="background-color:#D88A8A;">Failed</th>
+    <th id="stats-header-steps-skipped" style="background-color:#2DEAEC;">Skipped</th>
+    <th id="stats-header-steps-pending" style="background-color:#ebcc81;">Pending</th>
+    <th id="stats-header-duration">Duration</th>
+    <th id="stats-header-status">Status</th>
+</tr>
+
+                    <tr>
+                        <td><a id="stats- To test all the feature of Manage Users page" href="KPPhaseTwo-slingshot-_To_test_all_the_feature_of_Manage_Users_page.feature.html"> To test all the feature of Manage Users page</a></td>
+                        <td id="stats-number-scenarios- To test all the feature of Manage Users page">1</td>
+                        <td id="stats-number-scenarios-passed- To test all the feature of Manage Users page">1</td>
+                        <td id="stats-number-scenarios-failed- To test all the feature of Manage Users page">0</td>
+                        <td id="stats-number-steps- To test all the feature of Manage Users page">40</td>
+                        <td id="stats-number-steps-passed- To test all the feature of Manage Users page">40</td>
+                        <td id="stats-number-steps-failed- To test all the feature of Manage Users page">0</td>
+                        <td id="stats-number-steps-skipped- To test all the feature of Manage Users page">0</td>
+                        <td id="stats-number-steps-pending- To test all the feature of Manage Users page">0</td>
+                        <td id="stats-duration- To test all the feature of Manage Users page">2 mins and 25 secs and 910 ms</td>
+                        <td id="stats-status- To test all the feature of Manage Users page" style="background-color: #C5D88A;">passed</td></tr>
+
+                </table>
+
+            </div>
+
+		<div style="color:black;">
+
+            <div class="feature-tags"></div>
+            <div class="passed"><div class="feature-line"><span class="feature-keyword">Feature:</span>  To test all the feature of Manage Users page</div></div>
+            <div class="feature-description">Feature: To test all the feature of Manage Users page<br/>  <span class="feature-role">As an</span> user of the application<br/>  <span class="feature-action">I want to</span> test Manage User feature<br/></div>
+
+                            <div class="feature-tags"></div>
+                <div class="passed"><span class="scenario-keyword">Background: </span> <span class="scenario-name">1) <b>LoginAsOrgAdmin</b> -  To login to the application as a organization admin with DATA LoginAsAdmin_Success<div style='padding-left:30px;font-style:italic;'>Input Data: [[9999999991, Welcome@123], []] </div></span></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">1. Given I am ON home page</span><span class="step-duration">1 sec and 825 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">2. And I CLICK login</span><span class="step-duration">10 secs and 677 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">3. Then I am ON login page</span><span class="step-duration">1 sec and 136 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">4. And I ENTER the details with DATA LoginAsAdmin_Success</span><span class="step-duration">2 secs and 965 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">5. When I SUBMIT the form</span><span class="step-duration">3 secs and 822 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">6. Then I am ON dashboard page</span><span class="step-duration">1 sec and 190 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                            <div class="feature-tags"></div>
+                <div class="passed"><span class="scenario-keyword">Background: </span> <span class="scenario-name">2) <b>NavigateToPodOverview</b> -  To verify the name of pod after navigating to pod details page with DATA PodSearch_Success<div style='padding-left:30px;font-style:italic;'>Input Data: [[Cyber Wellness], []] </div></span></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">1. Given I am ON dashboard page</span><span class="step-duration">1 sec and 82 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">2. When I CLICK leftMenuButton</span><span class="step-duration">5 secs and 518 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">3. And I CLICK searchPods link</span><span class="step-duration">5 secs and 429 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">4. Then I am ON searchPods page</span><span class="step-duration">1 sec and 728 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">5. And I ENTER searchInputs for search with DATA PodSearch_Success</span><span class="step-duration">3 secs and 708 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">6. Then I CLICK searchPodArrow</span><span class="step-duration">7 secs and 48 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">7. And I VERIFY correctPodsDisplayed</span><span class="step-duration">9 secs and 786 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">8. And I CLICK firstPod</span><span class="step-duration">7 secs and 405 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">9. Then I am ON overview page</span><span class="step-duration">1 sec and 338 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">10. When I VERIFY podName</span><span class="step-duration">5 secs and 331 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">11. Then the pod name is same as the first pod clicked</span><span class="step-duration">0 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">12. And I VERIFY forumAndEnterClsRmButtonDisplayed or not</span><span class="step-duration">3 secs and 329 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">13. Then I am ON overview page</span><span class="step-duration">1 sec and 157 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                            <div class="feature-tags"></div>
+                <div class="passed"><span class="scenario-keyword">Background: </span> <span class="scenario-name">3) <b>AddUserToPodSuccess</b> -  To verify successful scenario for adding and enrolling a user to a pod with DATA InviteUser_Success<div style='padding-left:30px;font-style:italic;'>Input Data: [[Abhishek, , Yadav, adi22@gmail.com, 0, Welcome@123, Welcome@123, Default Online Site], [enrollment_success,learnerAdd_success]] </div></span></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">1. Given I am ON overview page of the pod</span><span class="step-duration">1 sec and 156 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">2. When I CLICK addParticipant button</span><span class="step-duration">5 secs and 394 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">3. Then I am ON participantResultList page</span><span class="step-duration">1 sec and 78 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">4. And I VERIFY ifLicenceAvailable to enroll user to pod</span><span class="step-duration">4 secs and 582 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">5. And I CLICK inviteLearner button</span><span class="step-duration">7 secs and 397 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">6. Then I am ON inviteUser page</span><span class="step-duration">1 sec and 115 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">7. And I ENTER valid user details with DATA InviteUser_Success</span><span class="step-duration">13 secs and 212 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">8. Then I SUBMIT the form</span><span class="step-duration">4 secs and 795 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">9. And I am ON participantResultList page</span><span class="step-duration">1 sec and 171 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">10. Then I PERFORM searchParticipantList</span><span class="step-duration">7 secs and 801 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">11. And I VERIFY userDisplayedOnPage</span><span class="step-duration">2 secs and 196 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">12. Then correct user is displayed on the page</span><span class="step-duration">0 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">13. And I VERIFY ifUserIsEnrolled to the pod</span><span class="step-duration">2 secs and 186 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">14. Then it is verified that user is enrolled to the pod</span><span class="step-duration">1 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">15. And I am ON participantResultList page</span><span class="step-duration">1 sec and 175 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                            <div class="feature-tags">ManageUserSorted</div>
+                <div class="passed"><span class="scenario-keyword">Scenario: </span> <span class="scenario-name">1)  To verify sorting of participant names in Z to A order in 'Manage User' page with DATA LearnerListSorted_ZtoA<div style='padding-left:30px;font-style:italic;'>Input Data: [[Alphabetical Z-A], []] </div></span></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">1. Given I am ON participantResultList page</span><span class="step-duration">1 sec and 77 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">2. When I CLICK leftMenuButton</span><span class="step-duration">5 secs and 383 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">3. Then I CLICK manageUsers link</span><span class="step-duration">5 secs and 440 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">4. And I am ON manageUser page</span><span class="step-duration">1 sec and 288 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">5. Then I VERIFY manageUserListSorted alphabatically</span><span class="step-duration">4 secs and 988 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                                  <div class="passed"><span class="step-keyword"> </span><span class="step-name">6. And it is verified that user list is sorted in Z-A order</span><span class="step-duration">1 ms</span></div>
+                    
+                                      <div class="output-data"></div>
+                            
+	</div>
+	</div>
+
+
+	<div class="container_12">
+		<div class="grid_12 hr"></div>
+		<div class="grid_12 footer">
+            <p style="text-align:center;">Cucumber-JVM Jenkins Report Plugin - version: cucumber-reporting-0.0.23 - 14-05-2018 15:29:36</p>
+		</div>
+	</div>
+	<div class="clear"></div>
+</body>
